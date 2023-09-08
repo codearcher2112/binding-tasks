@@ -12,14 +12,14 @@ const Pagination = {
         return this.arr.slice(startIndex, endIndex);
     },
     prevPage() {
-        if(this.currentPage > 1) {
+        if (this.currentPage > 1) {
             this.currentPage--
         }
 
         return this;
     },
     nextPage() {
-        if(this.currentPage < this.lastPage) {
+        if (this.currentPage < this.lastPage) {
             this.currentPage++
         }
 
